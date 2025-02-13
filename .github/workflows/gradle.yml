@@ -23,8 +23,8 @@ jobs:
           java-version: '17'
           distribution: 'temurin'
 
-      # - name: Grant execute permission to gradlew
-      #   run: chmod +x gradlew
+      - name: Grant execute permission to gradlew
+        run: chmod +x gradlew
 
       - name: Cache SonarQube packages
         uses: actions/cache@v4
