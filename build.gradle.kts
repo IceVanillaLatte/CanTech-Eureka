@@ -20,7 +20,7 @@ repositories {
 
 dependencyManagement {
 	imports {
-		mavenBom("org.springframework.cloud:spring-cloud-dependencies:2022.0.3") // 최신 BOM 버전
+		mavenBom("org.springframework.cloud:spring-cloud-dependencies:2023.0.3") 
 	}
 }
 
